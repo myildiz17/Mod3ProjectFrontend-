@@ -1,0 +1,152 @@
+#filter-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(236, 127, 99);
+  
+  }
+  
+  #good-dog-filter {
+    margin-top: 1vh;
+    width: 35vw;
+    font-size: 1em;
+    height: 5vh;
+    border-radius: 3em;
+  }
+  
+  #header {
+    height: 15vh;
+    background: skyblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #dog-bar span {
+    height: 80%;
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+    border: 1px solid blue;
+  }
+  
+  .projectContainer {
+    height: 75vh;
+    text-align: center;
+  }
+  
+  #line {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  
+  #dog-info img {
+    max-width: 75vw;
+    max-height: 25vw;
+  }
+  
+  body {
+    margin: 0;
+    background-image: url("https://constructionexec.com/assets/site_18/images/article/Dollarphotoclub_66178341_small.jpg?width=800");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+  }
+  
+  h1 {
+    margin: 50;
+    font-size: 45px;
+  }
+
+  h2 {
+    margin: 50;
+    font-size: 23px;
+    text-decoration: underline;
+  }
+
+  h4 {
+    margin: 50;
+    font-size: 25px;
+  }
+
+  h5 {
+    margin: 50;
+    font-size: 75px;
+  }
+
+  .projectContainer {
+    padding: 1rem;
+    width: stretch;
+    height: auto;
+    display: none;
+    /* background: #ffffff; */
+    opacity: .8;
+    
+  }
+
+   
+
+  #main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-left: 150px;
+    font-size: 18px;
+    
+  }
+  
+  /* div.card {
+    background-color: #eeeeee;
+    height: 250px;
+    width: 300px;
+    box-shadow: 10px 10px grey;
+    padding: 10px;
+    border-radius: 10px;
+  }  */
+
+  .projects {
+    text-align: center;
+    border: grey solid 1px;
+    padding: 1rem;
+    width: 45rem;
+    height: auto;
+    display: inline;
+    margin: 1rem 2rem;
+    box-shadow: 5px 6px #f33737
+    
+    /* background-blend-mode: darken; */
+  }
+
+  .just {
+    /* text-align: center;
+    border: grey solid 1px;
+    padding: 1rem;
+    width: 15rem;
+    height: auto;
+    display: inline;
+    margin: 1rem 2rem;
+    box-shadow: 5px 6px #784be0 */
+    /* background-blend-mode: darken; */
+    background-color: #b1ca99;
+    /* margin: 1rem 2rem; */
+    padding: 1rem;
+  }
+
+  .bttn {
+    border-radius: 8px;
+    background-color: #382dcc;
+    color: white;
+
+  }
+
+  #header{
+    position: sticky;
+    top: 0;
+  }
